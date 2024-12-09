@@ -8,8 +8,10 @@ INSTALLED_APPS = [
     # Django rest framework
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework_simplejwt',
     # A gente tem apps também
     'recipes',
     'authors',
     'tag',
+
 ]
